@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "96321144830",
+    "firebase_url": "https://arunity1-59482.firebaseio.com",
+    "project_id": "arunity1-59482",
+    "storage_bucket": "arunity1-59482.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96321144830:android:63de0f15d8cc3cb5",
+        "android_client_info": {
+          "package_name": "com.google.firebase.unity.auth.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96321144830-ge22s2dhuh6jv1ejco0l4giaalk3afi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC8mwvy4HaxhcdeLYsEfDRNewPrFy4cm0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
