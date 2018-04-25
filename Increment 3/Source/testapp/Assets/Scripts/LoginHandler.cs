@@ -94,7 +94,7 @@ public class LoginHandler : MonoBehaviour {
     {
         Debug.Log(initialsField.text);
 
-        email = initialsField.text;// "spara440@gmail.com";
+        email = initialsField.text;// "vijay@outlook.com";
         pwd = passinpfld.text; // "titanic";
         DebugLog(String.Format("Attempting to sign in as {0}...", email));
 
