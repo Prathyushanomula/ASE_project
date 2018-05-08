@@ -1,0 +1,109 @@
+<!--
+  ~    Copyright (C) 2017 MINDORKS NEXTGEN PRIVATE LIMITED
+  ~
+  ~    Licensed under the Apache License, Version 2.0 (the "License");
+  ~    you may not use this file except in compliance with the License.
+  ~    You may obtain a copy of the License at
+  ~
+  ~        http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~    Unless required by applicable law or agreed to in writing, software
+  ~    distributed under the License is distributed on an "AS IS" BASIS,
+  ~    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~    See the License for the specific language governing permissions and
+  ~    limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">AR News Catcher</string>
+    <string name="toggle_camera">Toggle Camera</string>
+    <string name="detect_object">Detect Object</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+
+
+    <string name="Login">Login</string>
+
+    <!-- menu items -->
+    <string name="action_settings">Settings</string>
+    <string name="action_edit_profile">Edit Profile</string>
+    <string name="action_log_out">Log Out</string>
+
+    <!-- buttons names and hints -->
+    <string name="create_account_btn">Create New Account</string>
+    <string name="register_btn">Register</string>
+    <string name="login_btn">Sign in</string>
+    <string name="email_address_editText_hint">Email Address</string>
+    <string name="name_editText_hint">Name</string>
+    <string name="password_editText_hint">Password</string>
+    <string name="submit_btn">Submit</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+
+
+
+    <!-- Warning messages and Toast -->
+    <string name="auth_failed">Login Failed</string>
+    <string name="error">An error occurred</string>
+    <string name="register_failed">Creating new user failed</string>
+    <string name="empty_email_password">You must enter a valid email and password</string>
+    <string name="empty_email_name">You must enter a name and a valid email</string>
+    <string name="signing_up_progress">Signing up in progress&#8230;</string>
+    <string name="signing_in_progress">Signing in&#8230;</string>
+    <string name="submitting_in_progress">Submitting&#8230;</string>
+    <string name="required">Required</string>
+    <string name="password_must_be_six">Password must be at least 6 characters</string>
+    <string name="email_is_not_valid">A valid email is required</string>
+    <string name="name_must_be_two">Name must be 2 characters at least</string>
+    <string name="submit_profile_error">Sorry, couldn\'t submit your profile.</string>
+    <!-- Warning messages and Toast -->
+
+    <string name="title_activity_profile">Profile</string>
+    <string name="fb_login_protocol_scheme">fb1010966069035103</string>
+    <string name="facebook_application_id">2193366904118192</string>
+    <!--<string name="facebook_app_id">1010966069035103</string>-->
+    <string name="twitter_consumer_key">F7PjcODz5gxPk2Hmo810BzyCc</string>
+    <string name="twitter_consumer_secret">YEjK9kRNZMMCwNehMSjfIbxpAWnGHBE2kZ3sxZPed0LR7AcdfV</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- invite -->
+    <string name="menu_invite">Invite Friends</string>
+    <string name="invitation_title">Suggest to friends</string>
+    <string name="invitation_message">Hi! this app is great</string>
+    <string name="invitation_deep_link" translatable="false">https://hrnm2.app.goo.gl/parchut</string>
+    <string name="invitation_custom_image" >https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png</string>
+    <string name="invitation_cta">Install</string>
+    <string name="invitation_failed">Sorry, we couldn\'t sent the invitation to your friends.</string>
+    <string name="google_play_services_error">Connection failed.</string>
+
+    <string name="deep_link_fmt" formatted="false">Deep Link: %s</string>
+    <string name="invitation_id_fmt" formatted="false">Invitation ID: %s</string>
+
+    <string name="deep_link_congratulation">Congratulations! you got invited</string>
+    <string name="deep_link_welcome_text">You may now try the app.</string>
+
+    <string name="sent_invitations_fmt" formatted="false">Sent %d invitations</string>
+    <string name="send_failed">Sending invitations failed</string>
+    <string name="invite_dialog_title">You got an invitation!</string>
+    <string name="deep_link_default">Deep link not set</string>
+    <string name="invitation_id_default">Invitation ID not set</string>
+    <!-- invite -->
+
+
+
+</resources>

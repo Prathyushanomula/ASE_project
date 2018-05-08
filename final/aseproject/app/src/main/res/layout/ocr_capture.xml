@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:keepScreenOn="true">
+
+    <com.mywebsite.arthree.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_weight="80"
+        android:layout_height="match_parent">
+
+        <com.mywebsite.arthree.camera.GraphicOverlay
+            android:id="@+id/graphicOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.mywebsite.arthree.camera.CameraSourcePreview>
+
+    <TextView
+        android:id="@+id/tvv"
+        android:text="-"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="go"
+        android:onClick="showresults"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
